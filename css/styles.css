@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #842029;
+}
+
+.navbar-brand img {
+    width: 64px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-nav a:hover {
+    color: #F2C48D;
+}
+
+.navbar-nav span {
+    color: #fff;
+}
+
+.navbar-nav button {
+    background-color: #F2C48D;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.navbar-nav button:hover {
+    background-color: none;
+    border: 1px solid #F2C48D;
+    font-weight: bold;
+    color: #F2C48D;
+}
+
+/* landingpage */
+main {
+    min-height: 70vh;
+}
+
+.main-header {
+    background-image: url(../img/dogoculosamarelo.png);
+    background-position: center;
+    background-size: cover;
+    height: 78vh;
+}
+
+.main-header-content {
+    max-width: 479.8px;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.main-header-content h2 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.main-header-content button {
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.main-header-content button:hover {
+    background-color: #842029;
+    transform: scale(1.03);
+}
+
+/* Nossos serviços */
+.main-nossos-servicos {
+    background-color: #F2C48D;
+    height: 78vh;
+}
+
+
+/* Footer */
+footer {
+    color: #fff;
+    font-size: 18px;
+    background-color: #842029;
+}
