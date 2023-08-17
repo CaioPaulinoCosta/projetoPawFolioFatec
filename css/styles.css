@@ -27,6 +27,10 @@
     color: #fff;
 }
 
+.navbar-nav span:hover {
+    color: #fff;
+}
+
 .navbar-nav button {
     background-color: #F2C48D;
     font-weight: bold;
@@ -40,6 +44,7 @@
     color: #F2C48D;
 }
 
+
 /* landingpage */
 main {
     min-height: 70vh;
@@ -49,12 +54,12 @@ main {
     background-image: url(../img/dogoculosamarelo.png);
     background-position: center;
     background-size: cover;
-    height: 78vh;
+    padding: 100px;
 }
 
 .main-header-content {
-    max-width: 479.8px;
     word-wrap: break-word;
+    max-width: 550px;
     color: #fff;
 }
 
@@ -78,9 +83,78 @@ main {
 /* Nossos serviços */
 .main-nossos-servicos {
     background-color: #F2C48D;
-    height: 78vh;
 }
 
+.main-nossos-servicos h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #842029;
+}
+
+.main-nossos-servicos h4 {
+    color: #842029;
+}
+
+.img-nossos-servicos img {
+    width: 142px;
+    height: 139px;
+    border-radius: 50%;
+}
+
+.nossos-servicos-line-1 {
+    padding-top: 50px;
+}
+
+.nossos-servicos-line-2 {
+    padding-top: 100px;
+}
+
+.nossos-servicos-card {
+    transition: .5s;
+}
+
+.nossos-servicos-card:hover {
+    transform: scale(1.03);
+}
+
+/* agendamento */
+.agendamento {
+    background-color: #BF7534;
+}
+
+.agendamento-img {
+    background-image: url(../img/agendamentoImg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.agendamento h4 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+}
+
+.agendamento span {
+    font-weight: bold;
+    color: #842029;
+}
+
+.agendamento button {
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #FEAD11;
+    color: #842029;
+    transition: .5s;
+}
+
+.agendamento button:hover  {
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #FEAD11;
+    color: #842029;
+    transform: scale(1.03);
+}
 
 /* Footer */
 footer {
