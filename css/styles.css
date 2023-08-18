@@ -54,18 +54,31 @@ main {
     color: #fff;
 }
 
-.navbar-nav button {
+.navbar button {
     background-color: #F2C48D;
     font-weight: bold;
     transition: .3s;
 }
 
-.navbar-nav button:hover {
+.navbar button:hover {
     background-color: none;
     border: 1px solid #F2C48D;
     font-weight: bold;
     color: #F2C48D;
 }
+
+.dropdown-menu a {
+    color: #842029 !important;
+}
+
+.dropdown-menu a:hover {
+    color: #F2C48D !important;
+}
+
+.dropdown-menu a:active {
+    color: #F2C48D !important;
+}
+
 
 
 /* landingpage */
@@ -309,6 +322,74 @@ main {
     font-weight: 600;
     color: #842029;
     background-color: #ff8690;
+}
+
+#email_error_employee {
+    display: none;
+    font-weight: 600;
+    color: #842029;
+    background-color: #ff8690;
+}
+
+#password_error_employee {
+    display: none;
+    font-weight: 600;
+    color: #842029;
+    background-color: #ff8690;
+}
+
+
+/* create pet */
+
+.create-pet-form-container {
+    max-width: 800px;
+}
+
+.create-pet-bg {
+    background-image: url(../img/create-pet-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.separator-create-pet-form {
+    background-color: #842029;
+    height: 2px;
+    width: 800px;
+}
+
+.create-pet-form input {
+    border: 1px solid #842029;
+    box-shadow: 10px rgba(0, 0, 0, 0) !important;
+}
+
+.create-pet-form input:focus {
+    border: 1px solid #842029;
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.create-pet-form textarea {
+    border: 1px solid #842029;
+    box-shadow: 10px rgba(0, 0, 0, 0) !important;
+}
+
+.create-pet-form textarea:focus {
+    border: 1px solid #842029;
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0) !important;
+}
+
+.create-pet-form button {
+    background-color: #F2C48D;
+    color: #842029;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.create-pet-form button:hover {
+    color: #842029;
+    transform: scale(1.03);
+    background-color: #F2C48D;
 }
 
 /* Footer */

@@ -5,7 +5,7 @@ require_once("config/db.php");
 
 ?>
 
-<footer>
+<footer class="mt-3">
       <div class="container text-center p-5">
         <span>Desenvolvido por <br>Caio Paulino Costa, Theo Vittor Tavora, João Pedro Pelogia e Pedro Fortunato<br></span>
         <span>&copy;2023 PawFolio</span>
