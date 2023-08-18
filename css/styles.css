@@ -4,6 +4,29 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+main {
+    min-height: 75vh;
+}
+
+.msg {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px #000;
+    text-align: center;
+  }
+  
+  .msg.error {
+    color: #842029;
+    background-color: #F8D7DA;
+    border-color: #F5C2C7;
+  }
+  
+  .msg.success {
+    color: #0F5132;
+    background-color: #D1E7DD;
+    border-color: #BADBCC;
+  }
 
 /* Navbar */
 .navbar {
@@ -46,9 +69,6 @@
 
 
 /* landingpage */
-main {
-    min-height: 70vh;
-}
 
 .main-header {
     background-image: url(../img/dogoculosamarelo.png);
@@ -154,6 +174,141 @@ main {
     background-color: #FEAD11;
     color: #842029;
     transform: scale(1.03);
+}
+
+/* login */
+.login-register {
+    background-color: #F2C48D;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #842029;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+
+.login-header h2 {
+    font-size: 42px;
+    color: #fff;
+}
+
+.login-header p {
+    font-size: 18px;
+    color: #F2C48D;
+}
+
+.separator-login {
+    background-color: #fff;
+    height: 2px;
+    width: 300px;
+}
+
+.login-form-card button {
+    background-color: #F2C48D;
+    color: #842029;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.login-form-card button:hover {
+    color: #842029;
+    transform: scale(1.03);
+    background-color: #F2C48D;
+}
+
+.login-form-card p {
+    color: #fff;
+}
+
+.login-form-card a {
+    color: #F2C48D;
+    transition: .3s;
+}
+
+.login-form-card a:hover {
+    color: #a88a64;
+}
+
+
+/* register */
+.register {
+    background-color: #F2C48D;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.register-form {
+    background-color: #842029;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+
+.register-header h2 {
+    font-size: 42px;
+    color: #fff;
+}
+
+.register-header p {
+    font-size: 18px;
+    color: #F2C48D;
+}
+
+.separator-register {
+    background-color: #fff;
+    height: 2px;
+    width: 500px;
+}
+
+.register-form-card button {
+    background-color: #F2C48D;
+    color: #842029;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.register-form-card button:hover {
+    color: #842029;
+    transform: scale(1.03);
+    background-color: #F2C48D;
+}
+
+.register-form-card button:disabled {
+    background-color: #F2C48D;
+    color: #842029;
+    font-weight: bold;
+}
+
+.register-form-card p {
+    color: #fff;
+}
+
+.register-form-card a {
+    color: #F2C48D;
+    transition: .3s;
+}
+
+.register-form-card a:hover {
+    color: #a88a64;
+}
+
+#email_error {
+    display: none;
+    font-weight: 600;
+    color: #842029;
+    background-color: #ff8690;
+}
+
+#password_error {
+    display: none;
+    font-weight: 600;
+    color: #842029;
+    background-color: #ff8690;
 }
 
 /* Footer */
