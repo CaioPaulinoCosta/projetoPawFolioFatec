@@ -392,6 +392,15 @@ main {
     background-color: #F2C48D;
 }
 
+.create-pet-image-preview {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/pet_preview_default_bg.jpg);
+}
+
 /* Footer */
 footer {
     color: #fff;
