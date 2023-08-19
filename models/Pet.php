@@ -27,7 +27,7 @@
 
         public function buildPet($data);
         public function findAll();
-        public function getLatestJobs();
+        public function getLatestPets();
         public function getPetByUserId($userId);
         public function findById($pet_id);
         public function create(Pet $pets);

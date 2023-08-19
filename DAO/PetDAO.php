@@ -41,7 +41,7 @@ class PetDAO implements petsDAOInterface {
     public function findAll() {
 
     }
-    public function getLatestJobs() {
+    public function getLatestPets() {
 
         $pets = [];
 
@@ -66,7 +66,7 @@ class PetDAO implements petsDAOInterface {
 
         $stmt = $this->conn->prepare("SELECT * FROM pets WHERE userId = :userId");
 
-        $stmt->bindParam(":userId", $pet_id);
+        $stmt->bindParam(":userId", $userId);
 
         $stmt->execute();
 
